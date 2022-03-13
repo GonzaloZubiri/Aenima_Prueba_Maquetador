@@ -138,30 +138,91 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 800px;
+    /* height: 800px; */
+    height: 100vh;
+    /* position: absolute; */
 }
 
 .text-header {
-    margin-top: 277px;
-    margin-left: 139px;
+    margin-top: 210px;
+    margin-left: 140px;
     width: 720px;
-    height: 214px;
+    height: 215px;
     color: #FFFFFF;
 }
 
 .text-header h1 {
     text-transform: uppercase;
     font-size: 48px;
+    font-weight: bold;
 }
 
 .after::after {
     content: "";
     display: block;
     /* margin: auto; */
-    margin-top: 30px;
+    margin-top: 25px;
     width: 550px;
     height: 2px;
     background-color: #FFFFFF;
     margin-bottom: 15px;
 }
+
+.text-header h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.text-header p {
+    max-width: 550px;
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 24px;
+}
+
+
+.next {
+    display: inline-block;
+    border: 2px dashed rgb(255, 255, 255, 0.5);
+    border-radius: 6px;
+    background: rgb(42, 48, 55, 0.5);
+    position: absolute;
+    right: 130px;
+    top: 650px;
+    width: 260px;
+    height: 157px;
+}
+
+.next h3 {
+    font-size: 16px;
+    color: #fa6980;
+    text-transform: uppercase;
+    margin-top: 27px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.next p {
+    margin-left: 30px;
+}
+
+.next .sub-title {
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-top: 13px;
+}
+
+.next .phara {
+    font-size: 14px;
+    color: #FFFFFF;
+    /* opacity: 0.5; */
+    padding-top: 10px;
+    padding-right: 30px;
+}
+
+.number {
+    position: absolute;
+    top: 750px;
+}
+
 
