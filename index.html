@@ -5,19 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Viajes</title>
 </head>
 <body>
-    <nav>
-        <div class="logo">
-            <img src="" alt="">
+    <header class="site-header">
+        <nav>
+            <div class="logo">
+                <img src="./Assets/logo/logo_01.png" alt="">
+            </div>
+            <input type="checkbox" id="click">
+            <label for="click" class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#">Tendencias</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </nav>
+
+        <div class="text-header">
+            <h1 class="after"><img src="./Assets/iconos/ic_pin.png" alt=""> America del Sur</h1>
+            <h2>Lugares maravillosos por America del Sur</h2>
+            <p>Estos son algunos lugares que eligieron la mayoria de los turistas que visitan America del Sur.</p>
         </div>
-        <input type="checkbox" id="click">
-        <label for="click" class="menu-btn">
-            <i class="fas fa bars"></i>
-        </label>
-        
-    </nav>
+    </header>
     
 </body>
 </html>

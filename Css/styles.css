@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*--- NAVBAR ---*/
+
+nav {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background: #FFFFFF ;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 100px;
+    flex-wrap: wrap;
+}
+
+/* nav .logo {
+    width: 100px;
+    height: 18px;
+} */
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: #CBD0D3;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    color: #2A3037;
+}
+
+nav .menu-btn i {
+    color: #2A3037;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    nav {
+        padding: 0 40px 0 50px;
+    }
+}
+
+@media (max-width: 920px) {
+    nav .menu-btn i {
+        display: block;
+    }
+
+    #click:checked ~ .menu-btn i::before {
+        content: "\f00d";
+        color: #2A3037;
+    }
+
+    nav ul {
+        position: fixed;
+        top: 60px;
+        right: -100%;
+        background: #FFFFFF;
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+        display: block;
+        transition: all 0.3s ease;
+    }
+
+    #click:checked ~ ul {
+        right: 0;
+        width: 80%;
+    }
+
+    nav ul li {
+        width: 100%;
+        margin: 40px 0;
+    }
+
+    nav ul li a {
+        width: 100%;
+        margin-right: -100%;
+        display: block;
+        font-size: 20px;
+        transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        color: #2A3037;
+        text-transform: uppercase;
+    }
+
+    #click:checked ~ ul li a {
+        margin-right: 0px;
+    }
+
+    /* nav ul li a.active,
+    nav ul li a:hover {
+        background: none;
+        color: cyan;
+    } */
+}
+
+
+body {
+    background-color: #EBEBEB;
+}
+
+
+
+
+
+/*--- HEADER ---*/
+
+.site-header {
+    background-image: url(/Assets/img/Viajes_Hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 800px;
+}
+
+.text-header {
+    margin-top: 277px;
+    margin-left: 139px;
+    width: 720px;
+    height: 214px;
+    color: #FFFFFF;
+}
+
+.text-header h1 {
+    text-transform: uppercase;
+    font-size: 48px;
+}
+
+.after::after {
+    content: "";
+    display: block;
+    /* margin: auto; */
+    margin-top: 30px;
+    width: 550px;
+    height: 2px;
+    background-color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
