@@ -20,11 +20,6 @@ nav {
     flex-wrap: wrap;
 }
 
-/* nav .logo {
-    width: 100px;
-    height: 18px;
-} */
-
 .navbar {
     position: fixed;
     width: 100%;
@@ -123,25 +118,9 @@ input[type="checkbox"] {
         margin-right: 0px;
     }
 
-    /* nav ul li a.active,
-    nav ul li a:hover {
-        background: none;
-        color: cyan;
-    } */
 }
 
 
-/* body {
-    background-color: #EBEBEB;
-} */
-
-/* --- Clase que agregaremos cuando el usuario haga scroll --- */
-/* .menu-fixed {
-	position: fixed;
-	z-index: 1000;
-	top: 0;
-	width: 100%;
-} */
 
 
 
@@ -152,9 +131,7 @@ input[type="checkbox"] {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    /* height: 800px; */
     height: 100vh;
-    /* position: absolute; */
 }
 
 .text-header {
@@ -174,7 +151,6 @@ input[type="checkbox"] {
 .after::after {
     content: "";
     display: block;
-    /* margin: auto; */
     margin-top: 25px;
     width: 550px;
     height: 2px;
@@ -229,7 +205,6 @@ input[type="checkbox"] {
 .next .phara {
     font-size: 14px;
     color: #FFFFFF;
-    /* opacity: 0.5; */
     padding-top: 10px;
     padding-right: 30px;
 }
@@ -238,6 +213,7 @@ input[type="checkbox"] {
     position: absolute;
     top: 80%;
 }
+
 
 
 
@@ -253,20 +229,15 @@ input[type="checkbox"] {
 .tendencias h2 {
     padding-top: 70px;
     padding-bottom: 30px;
-    /* padding-left: 135px; */
     text-transform: uppercase;
     color: #2A3037;
     font-size: 24px;
     font-weight: bold;
-    /* width: 57%;
-    margin: auto;
-    text-align: left; */
 }
 
 .card {
     width: 352px;
     height: 314px;
-    /* border: 1px solid gray; */
     overflow: hidden;
     margin: 0 auto;
     border-radius: 6px;
@@ -349,7 +320,6 @@ input[type="checkbox"] {
 .blog h2 {
     padding-top: 70px;
     padding-bottom: 30px;
-    /* padding-left: 135px; */
     text-transform: uppercase;
     color: #2A3037;
     font-size: 24px;
@@ -366,10 +336,9 @@ input[type="checkbox"] {
 }
 
 .card-blog {
-    width: 100%;
+    width: 107%;
     height: 429px;
     border-radius: 6px;
-    /* border: 1px solid gray; */
     background-image: url(/Assets/img/articulo_big_01.png);
     background-repeat: no-repeat;
     background-position: center center;
@@ -419,10 +388,9 @@ input[type="checkbox"] {
 }
 
 .card-blog-2 {
-    width: 100%;
+    width: 107%;
     height: 429px;
     border-radius: 6px;
-    /* border: 1px solid gray; */
     background-image: url(/Assets/img/articulo_big_02.png);
     background-repeat: no-repeat;
     background-position: center center;
@@ -432,7 +400,6 @@ input[type="checkbox"] {
 
 .blog-container {
     display: flex;
-    /* align-items: center; */
     flex-direction: column;
     justify-content: stretch;
 }
@@ -440,11 +407,7 @@ input[type="checkbox"] {
 .card-2 {
     width: 352px;
     height: 272px;
-    /* border: 1px solid gray; */
-    /* overflow: hidden;
-    margin: 0 auto; */
     border-radius: 6px;
-    /* box-shadow: 0px 3px 6px #00000029; */
 }
 
 .place-2 {
@@ -475,7 +438,6 @@ input[type="checkbox"] {
 
 .blog-container-2 {
     display: flex;
-    /* align-items: center; */
     flex-direction: column;
     justify-content: space-between;
     height: 890px;
@@ -509,7 +471,6 @@ input[type="checkbox"] {
     justify-content: space-between;
     align-items: center;
     height: 96px;
-    /* max-width: 1100px; */
     width: 83%;
     margin: auto;
 }
@@ -595,9 +556,6 @@ input[type="checkbox"] {
         display: none;
     }
 
-    /* .title-tendencias {
-        margin-left: 175px;
-    } */
 }
 
 @media screen and (max-width: 730px) {
@@ -607,7 +565,6 @@ input[type="checkbox"] {
 
     .blog-container {
         width: 100%;
-        /* display: flex; */
     }
 
     .number {
@@ -652,7 +609,6 @@ input[type="checkbox"] {
     }
 
     .text-header img {
-        /* width: 2.5%; */
         height: 20px;
     }
 
