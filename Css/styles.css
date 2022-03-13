@@ -25,6 +25,7 @@ nav {
     height: 18px;
 } */
 
+
 nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -127,7 +128,13 @@ body {
     background-color: #EBEBEB;
 }
 
-
+/* --- Clase que agregaremos cuando el usuario haga scroll --- */
+/* .menu-fixed {
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	width: 100%;
+} */
 
 
 
@@ -224,5 +231,7 @@ body {
     position: absolute;
     top: 750px;
 }
+
+
 
 
