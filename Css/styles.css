@@ -550,6 +550,14 @@ input[type="checkbox"] {
     .text-header p {
         display: none;
     }
+
+    .next {
+        display: none;
+    }
+
+    .number {
+        margin-left: -30px;
+    }
 }
 
 @media screen and (max-width: 710px) {
@@ -567,13 +575,16 @@ input[type="checkbox"] {
         width: 100%;
         /* display: flex; */
     }
+
+    .number {
+        margin-left: -60px;
+    }
 }
 
 @media screen and (max-width: 660px) {
     .text-header {
         text-align: center;
         width: 100%;
-        margin: ;
     }
     
     .text-header h1 {
@@ -599,6 +610,7 @@ input[type="checkbox"] {
         font-weight: bold;
         margin-right: 50px;
         text-align: left;
+        margin: auto;
     }
     
     .text-header p {
@@ -608,6 +620,10 @@ input[type="checkbox"] {
     .text-header img {
         /* width: 2.5%; */
         height: 20px;
+    }
+
+    .number {
+        margin-left: -80px;
     }
 }
 
@@ -620,5 +636,7 @@ input[type="checkbox"] {
         margin-top: 50px;
     }
 
-    
+    .number {
+        margin-left: -100px;
+    }
 }
