@@ -253,11 +253,14 @@ input[type="checkbox"] {
 .tendencias h2 {
     padding-top: 70px;
     padding-bottom: 30px;
-    padding-left: 135px;
+    /* padding-left: 135px; */
     text-transform: uppercase;
     color: #2A3037;
     font-size: 24px;
     font-weight: bold;
+    /* width: 57%;
+    margin: auto;
+    text-align: left; */
 }
 
 .card {
@@ -329,6 +332,16 @@ input[type="checkbox"] {
     margin: auto;
 }
 
+.title-tendencias {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: auto;
+}
+
+
 
 
 
@@ -336,11 +349,20 @@ input[type="checkbox"] {
 .blog h2 {
     padding-top: 70px;
     padding-bottom: 30px;
-    padding-left: 135px;
+    /* padding-left: 135px; */
     text-transform: uppercase;
     color: #2A3037;
     font-size: 24px;
     font-weight: bold;
+}
+
+.title-blog {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: auto;
 }
 
 .card-blog {
@@ -558,12 +580,24 @@ input[type="checkbox"] {
     .number {
         margin-left: -30px;
     }
+
+    .title-blog {
+        margin-left: 25px;
+    }
+
+    .title-tendencias {
+        margin-left: 95px;
+    }
 }
 
 @media screen and (max-width: 710px) {
     .card2 {
         display: none;
     }
+
+    /* .title-tendencias {
+        margin-left: 175px;
+    } */
 }
 
 @media screen and (max-width: 730px) {
@@ -627,6 +661,12 @@ input[type="checkbox"] {
     }
 }
 
+@media screen and (max-width: 500px) {
+    .title-tendencias {
+        margin-left: 75px;
+    }
+}
+
 @media screen and (max-width: 360px) {
     .blog-text p {
         display: none;
@@ -638,5 +678,9 @@ input[type="checkbox"] {
 
     .number {
         margin-left: -100px;
+    }
+
+    .title-tendencias {
+        margin-left: 25px;
     }
 }
